@@ -1,0 +1,13 @@
+""" BASIC TEXT DISPLAY """
+
+
+st.text()           # Fixed-width text (preserves formatting)
+st.write()          # Smart display (auto-detects type: text, dataframe, chart, etc.)
+st.markdown()       # Markdown formatted text (supports HTML/CSS)
+st.latex()          # LaTeX mathematical expressions
+st.title()          # Large title text (H1)
+st.header()         # Header text (H2)
+st.subheader()      # Subheader text (H3)
+st.caption()        # Small caption text
+st.code()           # Display code with syntax highlighting
+st.divider()        # Horizontal line separator
