@@ -1,0 +1,45 @@
+""" USER INPUT """
+
+""" TEXT INPUT """
+
+st.text_input() # Single line text input
+st.text_area() # Multi-line text area
+st.chat_input() # Chat style input box
+
+
+""" NUMBER INPUT """
+
+st.number_input() # Number input with +, - buttons
+st.slider() # for numeric range
+
+
+
+""" DATE & TIME INPUT """
+
+st.date_input() # Calender date picker
+st.time_input() # Time picker 
+
+
+
+""" SELECT WIDGETS """
+
+st.selectbox()      # Dropdown single selection
+st.multiselect()    # Multi-option selector
+st.radio()          # Radio button (single choice)
+st.checkbox()       # Single checkbox (boolean)
+st.toggle()         # Toggle switch (boolean)
+
+
+""" FILE AND MEDIA INPUT """
+
+st.file_uploader()  # Upload files (CSV, images, PDFs, etc.)
+st.camera_input()   # Capture photo from webcam
+st.color_picker()   # Color selection widget
+
+
+""" BUTTONS """
+
+st.button()         # Standard clickable button
+st.download_button() # Button that triggers file download
+st.link_button()    # Button that opens URL
+st.page_link()      # Navigate to another page
